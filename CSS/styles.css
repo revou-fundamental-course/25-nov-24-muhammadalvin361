@@ -1,37 +1,37 @@
 /* Ini File CSS */
 
-.MAIN-HEADER {
+.main-header {
   text-align: center;
 }
 
-main {
+/* main {
   display: flex;
   justify-content: space-evenly;
-}
+} */
 
-.main-section {
+/* .main-section {
   width: 40%;
-}
+} */
 
 footer {
   text-align: center;
 }
 
-.form {
+form {
   background-color: antiquewhite;
   padding: 16px;
   border-radius: 8px;
+  display: grid;
+  gap: 20px;
 }
 
 .form-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
 }
 
-.form-item-jk {
+/* .form-item-jk {
   justify-content: left;
-}
+} */
 
 input[type="number"],
 select {
@@ -42,4 +42,33 @@ select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid; /* Aktifkan grid layout */
+  grid-template-columns: 1fr 1fr; /* Bagi dua kolom secara merata */
+  height: 100vh; /* Buat tinggi penuh layar */
+  gap: 5%;
+}
+
+.grid-item {
+  display: flex; /* Opsional: untuk centering konten */
+  align-items: center; /* Centering vertikal */
+  justify-content: center; /* Centering horizontal */
+  border: 1px solid #ccc; /* Opsional: untuk memudahkan melihat batas */
+  font-size: 24px; /* Opsional: ukuran teks */
+}
+body {
+  margin: 100px 150px;
+}
+.bg-cadet-blue-antiquewhite {
+  background-color: skyblue;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.bg-alice-blue {
+  padding: 5px;
+  border-radius: 4px;
 }
