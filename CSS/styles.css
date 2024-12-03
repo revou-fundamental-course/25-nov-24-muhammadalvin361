@@ -1,0 +1,45 @@
+/* Ini File CSS */
+
+.MAIN-HEADER {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-section {
+  width: 40%;
+}
+
+footer {
+  text-align: center;
+}
+
+form {
+  background-color: antiquewhite;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.form-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-item-jk {
+  justify-content: left;
+}
+
+input[type="number"],
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
