@@ -25,6 +25,15 @@ form {
   gap: 20px;
 }
 
+.form-BB {
+  background-color: rgb(183, 183, 183);
+  padding: 16px;
+  border-radius: 8px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
 .form-item {
   display: grid;
 }
@@ -56,15 +65,16 @@ select {
   align-items: center; /* Centering vertikal */
   justify-content: center; /* Centering horizontal */
   border: 1px solid #ccc; /* Opsional: untuk memudahkan melihat batas */
-  font-size: 24px; /* Opsional: ukuran teks */
+  font-size: 100px; /* Opsional: ukuran teks */
 }
+
 body {
   margin: 100px 150px;
   font-family: poppins;
 }
 .bg-cadet-blue-antiquewhite {
   background-color: skyblue;
-  color: rgb(0, 0, 0);
+  color: rgb(78, 38, 38);
   padding: 5px;
   border-radius: 4px;
 }
@@ -82,6 +92,16 @@ body {
   border-radius: 4px;
   stroke: none;
 }
+
+.submit-hasil {
+  background-color: skyblue;
+  color: rgb(78, 38, 38);
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
 .main-footer {
   margin-top: 120px;
 }
@@ -92,4 +112,22 @@ body {
   border-radius: 8px;
   display: grid;
   gap: 20px;
+}
+
+.main-section3 {
+  background-color: rgb(183, 183, 183);
+  padding: 16px;
+  border-radius: 8px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
+}
+
+.item-below {
+  background-color: rgb(183, 183, 183);
+  padding: 16px;
+  border-radius: 8px;
+  display: grid;
+  gap: 20px;
+  text-align: center;
 }
