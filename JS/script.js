@@ -2,18 +2,18 @@
 
 // Menghitung BMI
 document
-  .querySelector(".bg-green-yellow.color-black")
+  .querySelector(".bg-cadet-blue-antiquewhite")
   .addEventListener("click", function (e) {
     e.preventDefault();
 
     // Buat nilai input
     const berat = parseFloat(
-      document.getElementById("input-berat-badan").value
+      document.getElementById("berat-badan-input").value
     );
     const tinggi = parseFloat(
-      document.getElementById("input-tinggi-badan").value
+      document.getElementById("tinggi-badan-input").value
     );
-    const usia = parseInt(document.getElementById("input-usia").value);
+    const usia = parseInt(document.getElementById("usia-input").value);
 
     // Validasi supaya nilai input adalah angka valid
     if (
@@ -45,9 +45,9 @@ document
     }
 
     // Menampilkan hasil hitung BMI
-    document.getElementById("result-calculation").textContent = bmi.toFixed(2);
+    document.getElementById("calculation-result").textContent = bmi.toFixed(2);
     document.getElementById(
-      "info-result"
+      "result-info"
     ).textContent = `Artinya: ${kategori}.`;
   });
 
@@ -57,7 +57,7 @@ document
   .addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector("form").reset();
-    document.getElementById("result-calculation").textContent = "0";
-    document.getElementById("info-result").textContent =
+    document.getElementById("calculation-result").textContent = "0";
+    document.getElementById("result-info").textContent =
       "Anda memiliki berat badan";
   });
